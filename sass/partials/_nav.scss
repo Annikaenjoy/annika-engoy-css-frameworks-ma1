@@ -1,0 +1,25 @@
+.nav {
+    font-family: $font-nav;
+    font-size: 18px;
+    background-color: getColor(nav-background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__inner {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+    }
+    &__item {
+        color: #000;
+        margin-right: 1rem;
+
+    }
+    &__link {
+        color: #000;
+    }
+    &__link--active {
+        color: getColor(active);
+    }
+}

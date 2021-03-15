@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+html, 
+body {
+    background-color: getColor(background);
+    margin: 0;
+    font-family: $font-primary;
+    color: #000;
+}
